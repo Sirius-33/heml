@@ -1911,7 +1911,7 @@
           },
 
           "CHILD": function (type, what, _argument, first, last) {
-            var simple = type.slice(0, 3) !== "nth",
+            var /* simple */ = type.slice(0, 3) !== "nth",
               forward = type.slice(-4) !== "last",
               ofType = what === "of-type";
 
